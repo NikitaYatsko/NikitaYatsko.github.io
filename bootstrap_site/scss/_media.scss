@@ -1,0 +1,202 @@
+@media(max-width:1200px) {
+    .promo_header {
+        font-size: 45px;
+    }
+
+    .menu_item {
+        padding-right: 20px;
+    }
+
+    .subheader_call {
+        font-size: 11px;
+    }
+
+    .phone {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:991px) {
+    .promo_header {
+        font-size: 40px;
+    }
+
+    .promo_subheader {
+        font-size: 32px;
+    }
+
+    .menu_link {
+        font-size: 10px;
+    }
+
+    .row_wrapper {
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .row_block {
+        flex-direction: column;
+    }
+
+    .row_icon {
+        margin: 0 auto;
+
+        .circle {
+            margin-right: 0px !important;
+        }
+    }
+
+    .adv_text {
+        text-align: center;
+    }
+
+
+    .car {
+        width: 650px;
+        margin: 0 auto;
+    }
+
+}
+
+@media(max-width:767px) {
+
+    .car_section {
+        padding-bottom: 0;
+        min-height: 700px;
+
+        .car {
+            width: 550px;
+        }
+    }
+
+    .adv_header {
+        font-size: 30px;
+    }
+
+    .promo_header {
+        font-size: 39px;
+    }
+
+    .call_block {
+        display: none;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    .burger_menu {
+        display: block;
+    }
+}
+
+@media(max-width:575px) {
+    .car_section {
+        padding-bottom: 0px;
+        min-height: 640px;
+
+        .car {
+            width: 450px;
+        }
+    }
+
+    .promo_subheader {
+        font-size: 29px;
+        margin-top: 35px;
+    }
+
+    .promo_btn {
+        margin-top: 100px;
+    }
+
+    .mobile_item {
+        width: 280px;
+    }
+
+    .adv_header {
+        font-size: 26px;
+    }
+
+    .reqs_title {
+        font-size: 18px;
+    }
+
+    .promo_text {
+        display: none;
+    }
+
+    .logo_text {
+        display: none;
+    }
+
+    .main_logo {
+        position: absolute;
+        width: 45%;
+        height: 20px;
+        top: 20%;
+    }
+
+    .sub_btn {
+        max-width: 116px;
+        margin-top: 20px;
+        position: absolute;
+        right: 10px;
+    }
+
+    .footer_main {
+        margin: 0 auto;
+    }
+
+    .block_2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media(max-width:475px) {
+    .car_section {
+        padding-bottom: 0px;
+        min-height: 580px;
+
+        .car {
+            width: 370px;
+            margin-top: 30px;
+        }
+    }
+}
+
+@media(max-width:375px) {
+    .car_section {
+        padding-bottom: 0px;
+        min-height: 580px;
+
+        .car {
+            width: 260px;
+        }
+    }
+    .block_1 {
+        gap: 20px !important;
+    }
+    .links{
+        width: 200px !important;
+    }
+}
+
+@media (max-width:320px) {
+    .mobile_item {
+        width: 240px;
+
+        &_subtitle {
+            font-size: 18px;
+        }
+    }
+    .block_1 {
+        gap: 10px !important;
+        a{
+            font-size: 12px !important;
+        }
+    }
+   
+
+    
+}
